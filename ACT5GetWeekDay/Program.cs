@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace ACT5
+{
+    public class Driver
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine(DateTime.Now.DayOfWeek);
+        }
+    }
+}
