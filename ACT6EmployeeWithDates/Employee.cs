@@ -2,12 +2,12 @@
 {
     public class Employee
     {
-        const int DefCode = 0;
-        const string DefFirstName = "first";
-        const string DefLastName = "last";
-        const int DefAge = 0;
-        const string DefSeniority = "Senior";
-        const float DefAnualSalary = 2.48f;
+        protected const int DefCode = 0;
+        protected const string DefFirstName = "first";
+        protected const string DefLastName = "last";
+        protected const int DefAge = 0;
+        protected const string DefSeniority = "Senior";
+        protected const float DefAnualSalary = 2.48f;
 
         public Employee(int Code, string firstName, string lastName, int age, string seniority, float anualSalary) 
         {

@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT1TestingSortingMethods",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT2VisitWithGoodTime", "ACT2VisitWithGoodTime\ACT2VisitWithGoodTime.csproj", "{902A7AC6-C271-49DB-985F-376FB90F205B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT3HowManyDaysHaveGoneBy", "ACT3HowManyDaysHaveGoneBy\ACT3HowManyDaysHaveGoneBy.csproj", "{7B35491F-D973-4DCF-953B-90AB953F9D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT3HowManyDaysHaveGoneBy", "ACT3HowManyDaysHaveGoneBy\ACT3HowManyDaysHaveGoneBy.csproj", "{7B35491F-D973-4DCF-953B-90AB953F9D72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT4WhichIsBigger", "ACT4WhichIsBigger\ACT4WhichIsBigger.csproj", "{1D8361AA-621F-4C63-AAAD-2A569CB5BF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT4WhichIsBigger", "ACT4WhichIsBigger\ACT4WhichIsBigger.csproj", "{1D8361AA-621F-4C63-AAAD-2A569CB5BF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT5GetWeekDay", "ACT5GetWeekDay\ACT5GetWeekDay.csproj", "{1BD1FE5D-A5E5-4E54-A7A3-C1A21FA618E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT5GetWeekDay", "ACT5GetWeekDay\ACT5GetWeekDay.csproj", "{1BD1FE5D-A5E5-4E54-A7A3-C1A21FA618E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT6EmployeeWithDates", "ACT6EmployeeWithDates\ACT6EmployeeWithDates.csproj", "{5C3A3417-6109-4A29-95CB-6119DB068D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT6EmployeeWithDates", "ACT6EmployeeWithDates\ACT6EmployeeWithDates.csproj", "{5C3A3417-6109-4A29-95CB-6119DB068D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT7ExtendClassEmployee", "ACT7ExtendClassEmployee\ACT7ExtendClassEmployee.csproj", "{9152589E-7313-4220-8E6E-8159616756D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5C3A3417-6109-4A29-95CB-6119DB068D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C3A3417-6109-4A29-95CB-6119DB068D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C3A3417-6109-4A29-95CB-6119DB068D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152589E-7313-4220-8E6E-8159616756D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152589E-7313-4220-8E6E-8159616756D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152589E-7313-4220-8E6E-8159616756D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152589E-7313-4220-8E6E-8159616756D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
