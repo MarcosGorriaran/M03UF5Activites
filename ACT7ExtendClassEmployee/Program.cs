@@ -1,17 +1,16 @@
 ﻿
 
 using System.Runtime.CompilerServices;
-using ACT7;
+using ACT6;
 
-namespace ACT7ExtendClassEmployee
+
+namespace ACT7
 {
     public class Driver
     {
         public static void Main()
         {
-            SalesEmployee employee = new SalesEmployee();
-
-            Console.WriteLine(employee.Comision);
+            List<Employee> list = new List<Employee>();
         }
     }
 }

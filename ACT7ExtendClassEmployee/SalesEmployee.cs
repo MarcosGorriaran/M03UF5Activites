@@ -1,20 +1,28 @@
 ﻿using ACT6;
+
 namespace ACT7
 {
     public class SalesEmployee : Employee
     {
-        const float DefComision = 3.00f;
+        const float DefComision = 18.00f;
         public SalesEmployee(int Code, string firstName, string lastName,
-                            int age, string seniority, float anualSalary,
-                            float comision):base(Code, firstName, lastName, age, seniority, anualSalary) 
+                            DateOnly birthDate,DateOnly hireDate, float monthSalary, int payment,
+                            float comision):base(Code, firstName, lastName, birthDate,hireDate,monthSalary,payment) 
         {
             Comision = comision;
         }
-        public SalesEmployee() : this(DefCode, DefFirstName, DefLastName, DefAge, DefSeniority, DefAnualSalary, DefComision)
+        public SalesEmployee() : this(DefCode, DefFirstName, DefLastName, DateOnly.Parse(DefBirthDate),
+                                DateOnly.Parse(DefHireDate), DefMonthSalary, DefPayments, DefComision)
         {
 
         }
 
         public float Comision {  get; set; }
+
+        public override string ToString()
+        {
+            string showText = $">Comission: {Comision}";
+            return base.ToString() + showText;
+        }
     }
 }

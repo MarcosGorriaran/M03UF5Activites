@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ACT6EmployeeWithDates\ACT6EmployeeWithDates.csproj" />
-  </ItemGroup>
-
 </Project>
