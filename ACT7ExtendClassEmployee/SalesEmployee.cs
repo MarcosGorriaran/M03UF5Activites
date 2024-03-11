@@ -1,4 +1,4 @@
-﻿using ACT6;
+﻿
 
 namespace ACT7
 {
@@ -11,17 +11,20 @@ namespace ACT7
         {
             Comision = comision;
         }
-        public SalesEmployee() : this(DefCode, DefFirstName, DefLastName, DateOnly.Parse(DefBirthDate),
-                                DateOnly.Parse(DefHireDate), DefMonthSalary, DefPayments, DefComision)
+        public SalesEmployee(DateOnly hireDate) : this(DefCode, DefFirstName, DefLastName, DateOnly.Parse(DefBirthDate), hireDate, DefMonthSalary, DefPayments, DefComision)
         {
 
         }
+        public SalesEmployee() : this(DateOnly.Parse(DefHireDate))
+        {
 
+        }
+        
         public float Comision {  get; set; }
 
         public override string ToString()
         {
-            string showText = $">Comission: {Comision}";
+            string showText = $">Comission: {Comision}{Environment.NewLine}";
             return base.ToString() + showText;
         }
     }

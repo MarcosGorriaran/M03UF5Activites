@@ -1,4 +1,4 @@
-﻿namespace ACT6
+﻿namespace ACT7
 {
     public class Employee : IComparable<Employee>
     {
@@ -16,10 +16,15 @@
             this.FirstName = firstName;
             this.LastName = lastName;
             this.BirthDate = birthDate;
+            this.HireDate = hireDate;
             this.MonthSalary = monthSalary;
             this.payments = payments;
         }
-        public Employee() : this(DefCode, DefFirstName, DefLastName, DateOnly.Parse(DefBirthDate),DateOnly.Parse(DefHireDate), DefMonthSalary, DefPayments)
+        public Employee(DateOnly hireDate) : this(DefCode, DefFirstName, DefLastName, DateOnly.Parse(DefBirthDate), hireDate, DefMonthSalary, DefPayments)
+        {
+
+        }
+        public Employee() : this(DateOnly.Parse(DefHireDate))
         {
         
         }
@@ -102,7 +107,7 @@
         }
         public int CompareTo(Employee otherEmployee)
         {
-            return this.
+            return -this.employmentContractLength().CompareTo(otherEmployee.employmentContractLength());
         }
     }
 }
