@@ -2,7 +2,7 @@
 {
     public class Driver
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine(DateTime.Now.DayOfWeek);
         }

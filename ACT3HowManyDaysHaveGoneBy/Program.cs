@@ -4,8 +4,8 @@
     {
         public static void Main()
         {
-            DateOnly dateOnly = DateOnly.Parse(Console.ReadLine()??"");
-            Console.WriteLine(DaysBetweenDates(dateOnly,new DateOnly(DateTime.Now.Year,DateTime.Now.Month,DateTime.Now.Day)));
+            DateTime dateOnly = DateTime.Parse(Console.ReadLine()??"");
+            TimeSpan result = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).Subtract(dateOnly);
 
 
         }

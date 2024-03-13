@@ -8,10 +8,10 @@ namespace ACT12
         {
             const int MinPossibleValue = 50;
             const int MaxPossibleValue = 150;
-            const int AmountValues = 10;
+            const int AmountValues = 100;
             const int NotBiggerThan = 100;
             Random rnd = new Random();
-            ArrayList numList = new ArrayList();
+            List<int> numList = new List<int>();
 
             for(int i = 0; i<AmountValues; i++)
             {
@@ -19,7 +19,7 @@ namespace ACT12
             }
             for(int i = 0;i<numList.Count; i++)
             {
-                if ((int)numList[i] > NotBiggerThan)
+                if (numList[i] > NotBiggerThan)
                 {
                     numList.RemoveAt(i);
                     i--;
