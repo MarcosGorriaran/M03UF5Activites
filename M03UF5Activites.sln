@@ -17,15 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT6EmployeeWithDates", "AC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT7ExtendClassEmployee", "ACT7ExtendClassEmployee\ACT7ExtendClassEmployee.csproj", "{9152589E-7313-4220-8E6E-8159616756D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT8SumList", "ACT8SumList\ACT8SumList.csproj", "{E3869477-5235-4097-A711-C49BF735FA27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT8SumList", "ACT8SumList\ACT8SumList.csproj", "{E3869477-5235-4097-A711-C49BF735FA27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT9FilterEvenNum", "ACT9FilterEvenNum\ACT9FilterEvenNum.csproj", "{6D16DB9E-2033-49E1-BB11-D74B29EA3CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT9FilterEvenNum", "ACT9FilterEvenNum\ACT9FilterEvenNum.csproj", "{6D16DB9E-2033-49E1-BB11-D74B29EA3CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT10ArrayToList", "ACT10ArrayToList\ACT10ArrayToList.csproj", "{FC6F144B-C8E6-4F46-A147-028D26E259D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT10ArrayToList", "ACT10ArrayToList\ACT10ArrayToList.csproj", "{FC6F144B-C8E6-4F46-A147-028D26E259D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT11EmployeerDictionary", "ACT11EmployeerDictionary\ACT11EmployeerDictionary.csproj", "{F9EA1822-3049-46D7-AFBE-9BDEE939E730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT11EmployeerDictionary", "ACT11EmployeerDictionary\ACT11EmployeerDictionary.csproj", "{F9EA1822-3049-46D7-AFBE-9BDEE939E730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT12DeleteSpecificValues", "ACT12DeleteSpecificValues\ACT12DeleteSpecificValues.csproj", "{AE6F8F28-E59C-49BA-993B-C308FEFE229B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT12DeleteSpecificValues", "ACT12DeleteSpecificValues\ACT12DeleteSpecificValues.csproj", "{AE6F8F28-E59C-49BA-993B-C308FEFE229B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT18DelegateMethod", "ACT18DelegateMethod\ACT18DelegateMethod.csproj", "{013AB040-C2CE-49D9-BB81-3EE2363361C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT19CalcPOWusingDelegate", "ACT19CalcPOWusingDelegate\ACT19CalcPOWusingDelegate.csproj", "{EEAE452A-7D3F-4419-BC11-F203ABC419C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT20SquareRootWithDelegate", "ACT20SquareRootWithDelegate\ACT20SquareRootWithDelegate.csproj", "{729C9B2C-A01F-47F8-B954-CEA03F237D5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{AE6F8F28-E59C-49BA-993B-C308FEFE229B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE6F8F28-E59C-49BA-993B-C308FEFE229B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE6F8F28-E59C-49BA-993B-C308FEFE229B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013AB040-C2CE-49D9-BB81-3EE2363361C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013AB040-C2CE-49D9-BB81-3EE2363361C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013AB040-C2CE-49D9-BB81-3EE2363361C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013AB040-C2CE-49D9-BB81-3EE2363361C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAE452A-7D3F-4419-BC11-F203ABC419C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAE452A-7D3F-4419-BC11-F203ABC419C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAE452A-7D3F-4419-BC11-F203ABC419C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAE452A-7D3F-4419-BC11-F203ABC419C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
