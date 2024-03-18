@@ -27,11 +27,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT11EmployeerDictionary", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT12DeleteSpecificValues", "ACT12DeleteSpecificValues\ACT12DeleteSpecificValues.csproj", "{AE6F8F28-E59C-49BA-993B-C308FEFE229B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT18DelegateMethod", "ACT18DelegateMethod\ACT18DelegateMethod.csproj", "{013AB040-C2CE-49D9-BB81-3EE2363361C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT18DelegateMethod", "ACT18DelegateMethod\ACT18DelegateMethod.csproj", "{013AB040-C2CE-49D9-BB81-3EE2363361C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT19CalcPOWusingDelegate", "ACT19CalcPOWusingDelegate\ACT19CalcPOWusingDelegate.csproj", "{EEAE452A-7D3F-4419-BC11-F203ABC419C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT19CalcPOWusingDelegate", "ACT19CalcPOWusingDelegate\ACT19CalcPOWusingDelegate.csproj", "{EEAE452A-7D3F-4419-BC11-F203ABC419C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT20SquareRootWithDelegate", "ACT20SquareRootWithDelegate\ACT20SquareRootWithDelegate.csproj", "{729C9B2C-A01F-47F8-B954-CEA03F237D5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT20SquareRootWithDelegate", "ACT20SquareRootWithDelegate\ACT20SquareRootWithDelegate.csproj", "{729C9B2C-A01F-47F8-B954-CEA03F237D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT21AvgDelegate", "ACT21AvgDelegate\ACT21AvgDelegate.csproj", "{DAB2C912-7815-4763-B37A-4BABC1FDD079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT22DelegateCaseScenarios", "ACT22DelegateCaseScenarios\ACT22DelegateCaseScenarios.csproj", "{1FFAD24B-BE9C-46CE-868E-D4BE9A861CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT23FibonacciDelegate", "ACT23FibonacciDelegate\ACT23FibonacciDelegate.csproj", "{26437FE4-AA70-4057-8EBB-8C89A4E19597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT24IsNaturalDelegate", "ACT24IsNaturalDelegate\ACT24IsNaturalDelegate.csproj", "{F366A6CA-D309-4365-B7E0-B4313EE63050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT25IdentifierMethods", "ACT25IdentifierMethods\ACT25IdentifierMethods.csproj", "{1A273CFE-F6FC-4FCB-9D4F-1645449A0B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +109,26 @@ Global
 		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{729C9B2C-A01F-47F8-B954-CEA03F237D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB2C912-7815-4763-B37A-4BABC1FDD079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB2C912-7815-4763-B37A-4BABC1FDD079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB2C912-7815-4763-B37A-4BABC1FDD079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB2C912-7815-4763-B37A-4BABC1FDD079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFAD24B-BE9C-46CE-868E-D4BE9A861CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFAD24B-BE9C-46CE-868E-D4BE9A861CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFAD24B-BE9C-46CE-868E-D4BE9A861CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFAD24B-BE9C-46CE-868E-D4BE9A861CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26437FE4-AA70-4057-8EBB-8C89A4E19597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26437FE4-AA70-4057-8EBB-8C89A4E19597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26437FE4-AA70-4057-8EBB-8C89A4E19597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26437FE4-AA70-4057-8EBB-8C89A4E19597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F366A6CA-D309-4365-B7E0-B4313EE63050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F366A6CA-D309-4365-B7E0-B4313EE63050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F366A6CA-D309-4365-B7E0-B4313EE63050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F366A6CA-D309-4365-B7E0-B4313EE63050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A273CFE-F6FC-4FCB-9D4F-1645449A0B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A273CFE-F6FC-4FCB-9D4F-1645449A0B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A273CFE-F6FC-4FCB-9D4F-1645449A0B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A273CFE-F6FC-4FCB-9D4F-1645449A0B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
