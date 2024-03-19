@@ -8,7 +8,7 @@ namespace ACT9
         {
             const int AmountList = 20;
             const int Div = 2;
-            ArrayList numList = new ArrayList();
+            List<int> numList = new List<int>();
             Random rnd = new Random();
 
             for (int i = 0; i < AmountList; i++)
@@ -17,11 +17,12 @@ namespace ACT9
             }
             for(int i = 0;i < numList.Count; i++)
             {
-                if ((int)numList[i] % Div == 0)
+                if (numList[i] % Div == 0)
                 {
                     Console.WriteLine(numList[i]);
                 }
             }
+            
         }
     }
 }
